@@ -1,57 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.next"
-	name="[COLOR blue]NEXT[/COLOR]"
-	version="0.0.3"
-	provider-name="NEXT">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-  <extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info>https://raw.githubusercontent.com/alkiber/repokeppler/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/alkiber/repokeppler/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/alkiber/master/Repositorio/</datadir>
-    </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">NEXTube</summary>
-    <description lang="en">Musica Actual Y Retro.</description>
-    <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
-  </extension>
-</addon>
-
-<addon id="plugin.video.Wizard"
-	   name="plugin.video.Wizard"
-	   version="1.0.1"
-	   provider-name="YO MISMO">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-
-		<extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info>https://raw.githubusercontent.com/alkiber/repokeppler/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/alkiber/repokeppler/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/alkiber/master/Repositorio/</datadir>
-    </extension>
-
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Wizard</summary>
-    <description>Instalador inteligente que ayuda a configurar tu Kodi correctamente</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="repository.Mirepor" name="[COLOR lime]Mi Repositorio[/COLOR] Repo" version="1.0.2" provider-name="JOSE BILBAO">
     <extension point="xbmc.addon.repository" name="Mi repositorio">
         <info>https://raw.githubusercontent.com/alkiber/repokeppler/master/Repositorio/addons.xml</info>
