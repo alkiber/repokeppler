@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.adryanlist"
-       name="AdryanList"
-       version="2.8.3"
-       provider-name="Adryan">
+<addon id="plugin.video.AmerikanoTuga"
+       name="[COLOR red][B]AMERIKANO[/B][/COLOR][COLOR green][B]TUGA[/B][/COLOR]"
+       version="0.0.6"
+       provider-name="Amerikano Tuga">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -14,7 +14,8 @@
     <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" />
+	<import addon="plugin.video.SportsDevil" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />
      <import addon="script.module.livestreamer" optional="true"/>
      <import addon="script.module.pyamf" optional="true"/>
@@ -23,15 +24,20 @@
     <provides>video</provides>
   </extension>
 
-  <extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info>https://raw.githubusercontent.com/alkiber/repokeppler/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/alkiber/repokeppler/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/alkiber/master/Repositorio/</datadir>
-    </extension>
+  <extension point="xbmc.addon.repository" name="repository.AmerikanoTuga">
+		<info compressed="false">http://amerikanotuga.tech/repo/addons.xml</info>
+		<checksum>http://amerikanotuga.tech/repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://amerikanotuga.tech/repo/zip/</datadir>
+	</extension>
+
+
 
   <extension point="xbmc.addon.metadata">
-    <summary>AdryanList  - Television - Peliculas - Series</summary>
-    <description>Adryanlist
+    <summary>Amerikano Tuga</summary>
+    <description>
+        Todos os links disponibilizados no Addon estao disponiveis
+em procura livre na internet.
+
     </description>
     <platform>all</platform>
   </extension>
