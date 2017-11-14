@@ -1,48 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.AmerikanoTuga"
-       name="[COLOR red][B]AMERIKANO[/B][/COLOR][COLOR green][B]TUGA[/B][/COLOR]"
-       version="0.0.6"
-       provider-name="Amerikano Tuga">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-	<import addon="plugin.video.SportsDevil" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-  <extension point="xbmc.addon.repository" name="repository.AmerikanoTuga">
-		<info compressed="false">http://amerikanotuga.tech/repo/addons.xml</info>
-		<checksum>http://amerikanotuga.tech/repo/addons.xml.md5</checksum>
-		<datadir zip="true">http://amerikanotuga.tech/repo/zip/</datadir>
-	</extension>
-
-
-
-  <extension point="xbmc.addon.metadata">
-    <summary>Amerikano Tuga</summary>
-    <description>
-        Todos os links disponibilizados no Addon estao disponiveis
-em procura livre na internet.
-
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.kodispaintv"
        name="[COLOR red]Kodi[/COLOR][COLOR yellow]Spain[/COLOR][COLOR red]TV[/COLOR]"
        version="2.1.1"
@@ -85,14 +42,14 @@ em procura livre na internet.
   </extension>
 </addon>
 
-<addon id="repository.Mirepor" name="[COLOR lime]Mi Repositorio[/COLOR] Repo" version="1.0.2" provider-name="JOSE BILBAO">
-    <extension point="xbmc.addon.repository" name="Mi repositorio">
+<addon id="repository.Mirepor" name="[COLOR lime]Mi Repositorio[/COLOR] Repo" version="1.0.2" provider-name="Jose bilbao">
+    <extension point="xbmc.addon.repository" name="Mi repo actualizador jose">
         <info>https://raw.githubusercontent.com/alkiber/repokeppler/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/alkiber/repokeppler/master/Repositorio/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/alkiber/repokeppler/master/Repositorio/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Repositorio para Mi</summary>
+        <summary>Repositorio actualizador kodi creado exclusivamente para mi centro multimedia digital jose keppler 2018</summary>keda expresamente prohibido el uso de este plugin sin aprobacion del creador jose keppler
         <description></description>
         <disclaimer></disclaimer>
         <platform>all</platform>
