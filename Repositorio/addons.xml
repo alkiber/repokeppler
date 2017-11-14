@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.Mirepor" name="[COLOR lime]Mi Repo actualizador kodi 2018[/COLOR] Repo" version="1.0.3" provider-name="Jose bilbao">
+<addon id="repository.Mirepor" name="[COLOR lime]Mi Repo Actualizador Kodi Jose 2018[/COLOR] Repo" version="1.0.3" provider-name="Jose bilbao">
     <extension point="xbmc.addon.repository" name="Mi repositorio">
         <info>https://raw.githubusercontent.com/alkiber/repokeppler/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/alkiber/repokeppler/master/Repositorio/addons.xml.md5</checksum>
