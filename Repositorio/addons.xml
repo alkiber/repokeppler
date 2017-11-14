@@ -28,6 +28,23 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.Wizard"
+	   name="plugin.video.Wizard"
+	   version="1.0.1"
+	   provider-name="YO MISMO">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Wizard</summary>
+    <description>Instalador inteligente que ayuda a configurar tu Kodi correctamente</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="repository.Mirepor" name="[COLOR lime]Mi Repositorio[/COLOR] Repo" version="1.0.2" provider-name="JOSE BILBAO">
     <extension point="xbmc.addon.repository" name="Mi repositorio">
         <info>https://raw.githubusercontent.com/alkiber/repokeppler/master/Repositorio/addons.xml</info>
