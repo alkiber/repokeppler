@@ -32,6 +32,257 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.alfa" name="Alfa" version="2.3.6" provider-name="Alfa Addon">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.libtorrent" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Navega con Kodi por páginas web.</summary>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshot>resources/media/themes/ss/1.jpg</screenshot>
+      <screenshot>resources/media/themes/ss/2.jpg</screenshot>
+      <screenshot>resources/media/themes/ss/3.jpg</screenshot>
+      <screenshot>resources/media/themes/ss/4.jpg</screenshot>
+    </assets>
+      <news>[B]Estos son los cambios para esta versión:[/B]
+      [COLOR green][B]Canales agregados y arreglos[/B][/COLOR]
+      » seriesblanco    »          hdfull
+      » gamovideo      ¤          arreglos internos
+    </news>
+    <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
+    <summary lang="en">Browse web pages using Kodi</summary>
+    <description lang="en">Browse web pages using Kodi, you can easily watch their video content.</description>
+    <disclaimer>[COLOR red]The owners and submitters to this addon do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.[/COLOR]</disclaimer>
+    <platform>all</platform>
+    <license>GNU GPL v3</license>
+    <forum>foro</forum>
+    <website>web</website>
+    <email>my@email.com</email>
+    <source>https://github.com/alfa-addon/addon</source>
+  </extension>
+  <extension point="xbmc.service" library="videolibrary_service.py" start="login|startup">
+  </extension>
+</addon>
+
+<addon id="plugin.video.kodispaintv"
+       name="[COLOR red]Kodi[/COLOR][COLOR yellow]Spain[/COLOR][COLOR red]TV[/COLOR]"
+       version="2.1.1"
+       provider-name="joheos11">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+		<summary>Canales de la Television Española y más...</summary>
+		<description>
+		Complemento de video basado en LiveStreamsPro
+		Puedes seguirme en https://t.me/kodispain y http://konectas.es
+
+		AVISO LEGAL:
+
+		Este complemento no aloja ningun contenido mostrado.
+		Todo el contenido se encuentra libremente en internet.
+		No se acepta ninguna responsabilidad por el uso de este addon.
+
+		Enjoy!
+		</description>
+		<platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.29" provider-name="TierraMedia">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simple.downloader" version="1.9.5"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="orthanc.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.repository" name="Palantir Repo">
+        <info>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/repo/master/Palantir/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>TV</summary>
+    <news>[B][COLOR gold]Estos son los cambios de la versión 0.0.29:[/B][/COLOR]
+        - Soporte urlresolver
+          [COLOR lime][B] versión 0.0.28 [/B][/COLOR]
+        - Cambios menores, arreglo de bug
+          [COLOR lime][B] versión 0.0.27 [/B][/COLOR]
+        - Cambio fanart.
+        - Posibilidad de mostrar series anime también en dibujos
+        - Funcionalidad interna para desactivar contenido que no funcione
+          [COLOR lime][B] versión 0.0.26 [/B][/COLOR]
+        - Cambio pequeño para corregir incompatibilidad con Jarvis
+          [COLOR lime][B] versión 0.0.25 [/B][/COLOR]
+        - Arreglar el error cuando se instala de 0
+          [COLOR lime][B] versión 0.0.24 [/B][/COLOR]
+        - Opción para configurar la cuenta de kbg.
+        - En el menú principal una sección dinámica Especiales (basado en sagas).
+        - En el menú dibujos añadido pelis de dibujos más vistas y pelis de dibujos más vistas en el último mes.
+        - Corregido fanart de algunas opciones que aparecían vacías.
+    </news>
+    <description>Visualiza el contenido de la nube, series, películas.</description>
+    <disclaimer>[B][COLOR red]Todo el contenido disponible en este Addon esta sacado de servidores gratuitos, disponible en la red para todos los usuarios.[/B][/COLOR]</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.gif</fanart>
+    </assets>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.pelisalacarta"
+    name="pelisalacarta"
+    version="Edition"
+    provider-name="Community">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.libtorrent" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Películas y series a la carta</summary>
+    <description lang="es">Películas, series, documentales, anime, ... Todo está en Internet, y ahora en tu media center.</description>
+    <summary lang="en">Movies and TV Shows on demand</summary>
+    <description lang="en">Movies, Series, Documentaries, Anime, ... Everything is on the net, and now on your media center.</description>
+    <platform>all</platform>
+    <license>GNU GPL v3</license>
+    <website>http://blog.tvalacarta.info/plugin-xbmc/pelisalacarta</website>
+    <email>tvalacarta@gmail.com</email>
+    <source>https://github.com/pelisalacarta-ce/pelisalacarta-ce</source>
+  </extension>
+  <extension point="xbmc.service" library="library_service.py" start="login|startup">
+  </extension>
+</addon>
+
+<addon id="plugin.video.rsiptv"
+       name="[COLOR blue]RS[/COLOR]IPTV"
+       version="0.0.7"
+       provider-name="RSIPTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="false"/>
+    <import addon="plugin.video.youtube" optional="false" />
+    <import addon="script.module.urlresolver" optional="false"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+   <extension point="xbmc.addon.repository" name="repository.rsiptv">
+		<info compressed="false">http://rsiptv.amerikanotuga.tech/addon/addons.xml</info>
+		<checksum>http://rsiptv.amerikanotuga.tech/addon/addons.xml.md5</checksum>
+		<datadir zip="true">http://rsiptv.amerikanotuga.tech/addon/zip/</datadir>
+	</extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>RSIPTV</summary>
+    <description>Todos os links disponibilizados no Addon estao disponiveis
+em procura livre na internet.</description>
+    <platform>all</platform>
+	<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.gif</fanart>
+        </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tvalacarta"
+    name="tvalacarta"
+    version="4.0.5"
+    provider-name="tvalacarta">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Televisión a la carta</summary>
+    <description lang="es">Para ver la televisión por Internet, a la carta y desde tu media center</description>
+    <summary lang="en">TV on demand (Spanish)</summary>
+    <description lang="en">Watch on demand spanish TV from your media center</description>
+    <platform>all</platform>
+    <license>GNU GPL v3</license>
+    <forum>http://www.mimediacenter.info/foro</forum>
+    <website>http://blog.tvalacarta.info/plugin-xbmc/tvalacarta</website>
+    <email>tvalacarta@gmail.com</email>
+    <source>https://github.com/tvalacarta/tvalacarta</source>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="login|startup">
+  </extension>
+</addon>
+
+<addon id="plugin.video.uwc"
+       name="Ultimate Whitecream"
+       version="1.1.54"
+       provider-name="Whitecream">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.urlresolver" />
+        <import addon="script.video.F4mProxy"  />
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Ultimate WhiteCream</summary>
+        <description lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Ultimate WhiteCream
+
+For support, visit: [COLOR hotpink]http://bit.ly/uwc-support[/COLOR]
+Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+        <forum>http://bit.ly/uwc-support</forum>
+    </extension>
+</addon>
+
 <addon id="plugin.video.Wizard"
 	   name="plugin.video.Wizard"
 	   version="1.0.1"
@@ -68,5 +319,25 @@
         <disclaimer></disclaimer>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="teamtuga4ever.repository" name="Teamtuga4ever Repository" version="1.8" provider-name="Teamtuga4ever">
+	<extension point="xbmc.addon.repository" name="Teamtuga4ever Repository">
+	<dir>
+		<info compressed="false">http://repoteamtuga4ever.16mb.com/addons.xml</info>
+		<checksum>http://repoteamtuga4ever.16mb.com/addons.xml.md5</checksum>
+		<datadir zip="true">http://repoteamtuga4ever.16mb.com/instal/</datadir>
+	</dir>
+		<info compressed="false">https://raw.githubusercontent.com/tugateam/Repository/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/tugateam/Repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/tugateam/Repository/master/instal/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>teamtuga4ever</summary>
+		<description>Teamtuga4ever Repository</description>
+         <disclaimer>Teamtuga4ever</disclaimer>
+		<platform>all</platform>
+                <website>https://www.facebook.com/groups/teamtuga4ever/</website>
+	</extension>
 </addon>
 </addons>
