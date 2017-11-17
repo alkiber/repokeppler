@@ -264,6 +264,13 @@
     <provides>video</provides>
   </extension>
 
+  <extension point="xbmc.addon.repository" name="Mi repositorio">
+
+        <info>https://raw.githubusercontent.com/alkiber/repokeppler/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/alkiber/repokeppler/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/alkiber/repokeppler/master/Repositorio/</datadir>
+    </extension>
+
   <extension point="xbmc.addon.metadata">
     <summary>Creado por jose portu</summary>
     <description>Addon creado y modificado por jose portu para uso privado de mi centro multimedia digital 2018</description>
@@ -634,10 +641,12 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 
 <addon id="repository.Mirepor" name="[COLOR lime]Mi Repo Actualizador Kodi Jose 2018[/COLOR] Repo" version="1.0.3" provider-name="Jose bilbao">
     <extension point="xbmc.addon.repository" name="Mi repositorio">
+
         <info>https://raw.githubusercontent.com/alkiber/repokeppler/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/alkiber/repokeppler/master/Repositorio/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/alkiber/repokeppler/master/Repositorio/</datadir>
     </extension>
+
     <extension point="xbmc.addon.metadata">
         <summary>Repositorio actualizador kodi creado exclusivamente para mi centro multimedia digital jose keppler 2018</summary>keda expresamente prohibido el uso de este plugin sin aprobacion del creador jose keppler
         <description></description>
