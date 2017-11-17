@@ -242,7 +242,7 @@
 </addon>
 
 <addon id="plugin.video.keppler"
-       name="[COLOR gold]keppler 2018[/COLOR][COLOR blue] 5[/COLOR].[COLOR yellow]4[/COLOR].[COLOR red]0[/COLOR]"
+       name="[COLOR blue]JOSEIPTV[/COLOR]"
        version="0.0.1"
        provider-name="keppler">
   <requires>
@@ -265,8 +265,8 @@
   </extension>
 
   <extension point="xbmc.addon.metadata">
-    <summary>Creado por keppler</summary>
-    <description>keppler 2017</description>
+    <summary>Creado por jose portu</summary>
+    <description>Addon creado y modificado por jose portu para uso privado de mi centro multimedia digital 2018</description>
     <platform>all</platform>
   </extension>
 </addon>
