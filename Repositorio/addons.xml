@@ -102,6 +102,22 @@
 	</extension>
 </addon>
 
+<addon id="plugin.program.VipSecrettv.wizard" name="[COLOR gold][B]VipSecrettv[/B][/COLOR][COLOR ghostwhite]Wizard[/COLOR]" version="1.2" provider-name="Marco Nogueira">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR lightskyblue]VipSecrettv Wizard[/COLOR]</summary>
+    <description lang="en">VipSecrettv Wizard will allow you to Kodi/Install Build/Install Apkz And More</description>
+    <platform>all</platform>
+	<news>Thanks To Aftermath For The Base Of The Wizard You Did A Great Job, I Have Made Some Great Changes And More To Come</news>
+  </extension>
+</addon>
+
 <addon id="plugin.video.adryanlist"
        name="AdryanList"
        version="2.8.2"
@@ -671,6 +687,22 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	<extension point="xbmc.addon.metadata">
 		<summary>Addons related to XBMC for Zemtv etc</summary>
 		<description>Go though the plugins and see what you like</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.vipsecrettv" name="[COLOR gold][B].Vip[/B][/COLOR][COLOR white][B]Secret[/B][/COLOR][COLOR blue][B]REPO[/B][/COLOR]" version="1.0.4" provider-name="Vip Secrettv">
+	<extension point="xbmc.addon.repository" name="Vip Secrettv">
+		<info compressed="false">http://vipsecret.amerikanotuga.tech/repo/addons.xml</info>
+		<checksum>http://vipsecret.amerikanotuga.tech/repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://vipsecret.amerikanotuga.tech/repo/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Vip Secrettv</summary>
+		<description>
+Vip Secrettv Repository
+		 </description>
+
 		<platform>all</platform>
 	</extension>
 </addon>
