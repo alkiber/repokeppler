@@ -242,9 +242,9 @@
 </addon>
 
 <addon id="plugin.video.keppler"
-       name="[COLOR red]JOSE[/COLOR][COLOR white]IPTV[/COLOR]"
+       name="[COLOR red]JOSE[/COLOR] [COLOR white]IPTV[/COLOR]"
        version="0.0.1"
-       provider-name="Jose portu">
+       provider-name="Jose Portu">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
