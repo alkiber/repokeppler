@@ -102,6 +102,27 @@
 	</extension>
 </addon>
 
+<addon id="plugin.audio.spotify" version="1.0.26" name="Spotify" provider-name="marcelveldt">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+        <import addon="script.module.simplejson" version="3.3.0"/>
+        <import addon="script.module.six" version="1.9.0"/>
+        <import addon="script.module.unidecode" version="0.4.14"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="plugin.py">
+		<provides>audio</provides>
+	</extension>
+    <extension point="xbmc.python.library" library="spotifyservice.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Unofficial Spotify music plugin for Kodi</summary>
+        <description>Requires a Spotify premium account.</description>
+        <disclaimer>This product uses SPOTIFY(R) CORE but is not endorsed, certified or otherwise approved in any way by Spotify. Spotify is the registered trade mark of the Spotify Group.</disclaimer>
+    </extension>
+</addon>
+
 <addon id="plugin.program.VipSecrettv.wizard" name="[COLOR gold][B]VipSecrettv[/B][/COLOR][COLOR ghostwhite]Wizard[/COLOR]" version="1.2" provider-name="Marco Nogueira">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -185,6 +206,36 @@
     <source>https://github.com/alfa-addon/addon</source>
   </extension>
   <extension point="xbmc.service" library="videolibrary_service.py" start="login|startup">
+  </extension>
+</addon>
+
+<addon id="plugin.video.BassFoxWeb"
+       name="[COLOR red]B[/COLOR][COLOR white]ass[/COLOR][COLOR red]F[/COLOR][COLOR white]ox[/COLOR][COLOR red]W[/COLOR][COLOR white]eb[/COLOR]"
+       version="1.0.0"
+       provider-name="MATUBAS">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR yellow]ADDON GRATUITO[/COLOR]</summary>
+    <description>ADDON HERMANO DE BASSFOX ,ESTE SE BASA UNICAMENTE EN PELICULAS ALOJADA EN LAS WEB BASSFOX.ORG [COLOR red]PUEDES DONAR VIA PAYPAL A[/COLOR] [COLOR blue]https://www.paypal.me/bassfox[/COLOR]
+	ESTE PROYECTO ES GRATUITO  [COLOR white]Matubass[/COLOR]</description>
+    <platform>all</platform>
   </extension>
 </addon>
 
