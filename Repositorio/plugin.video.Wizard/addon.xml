@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.Wizard" 
-	   name="plugin.video.Wizard"
-	   version="1.0.1"
+	   name="plugin.video.Wizard" 
+	   version="1.0.1" 
 	   provider-name="YO MISMO">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -11,7 +11,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Wizard</summary>
-    <description>Configura tu Kodi para funcionar correctamente gracias a jose portu. </description> <!-- PEQUEÑA INTRO  -->
+    <description>Instalador inteligente que ayuda a configurar tu Kodi correctamente</description>
     <platform>all</platform>
   </extension>
 </addon>
