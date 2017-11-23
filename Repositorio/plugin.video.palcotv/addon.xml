@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.palcotv" name="PalcoTV" version="0.3.4" provider-name="Juarrox">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="plugin.video.youtube" optional="true"/>		
+	<import addon="plugin.video.SportsDevil" optional="true"/>
+	<import addon="plugin.video.p2p-streams" optional="true"/>
+	<import addon="program.plexus" optional="true"/>	
+	<import addon="script.module.t0mm0.common" version="1.0.0" optional="false"/>
+	<import addon="script.module.beautifulsoup" version="3.2.1"/>
+	<import addon="script.module.requests" optional="false"/> 
+	<import addon="script.module.youtube.dl" optional="true"/>    
+	<import addon="script.common.plugin.cache" optional="false"/>	
+    <import addon="script.module.m3u8" version="0.2.2" optional="false"/>
+    <import addon="script.module.dateutil" version="2.4.2" optional="false"/>
+    <import addon="script.module.urlresolver" optional="true"/>    
+	<import addon="script.module.mctools" optional="false"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">PalcoTV</summary>
+    <description lang="en">[COLOR lightblue][B]PalcoTV[/B][/COLOR] es un addon de Kodi que permite administrar contenidos multimedia del usuario.</description>
+    <disclaimer lang="en">[B]Este addon es un mero ejercicio de aprendizaje de programación Python y se distribuye sin contenidos.[/B] Utilízalo bajo tu responsabilidad. Su autor queda eximido de toda responsabilidad si este addon se distribuye con acceso a contenidos protegidos por derechos de autor sin el permiso de sus creadores.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>

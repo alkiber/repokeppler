@@ -1,0 +1,4 @@
+﻿ PLD-COMICS
+
+Version 1.0.1:
+Primera version
