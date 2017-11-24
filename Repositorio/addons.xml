@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="inteligencia kodi jose"
-	   name="plugin instalador automatico"
-	   version="1.0.8"
+<addon id="inteligencia.kodi.jose"
+	   name="inteligencia.kodi.jose"
+	   version="1.0.9"
 	   provider-name="COMPUTER JOSE 2018">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -680,24 +680,6 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	<extension point="xbmc.addon.metadata">
 		<summary>Addons related to XBMC for Zemtv etc</summary>
 		<description>Go though the plugins and see what you like</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.simplycaz" name="Simply Caz Repo" version="1.0.2" provider-name="Simply Caz | CazWall.com">
-	<extension point="xbmc.addon.repository" name="Simply Caz Repo">
-		<info compressed="false">http://repo.cazwall.com/repolist/Plugins/addons.xml</info>
-		<checksum>http://repo.cazwall.com/repolist/Plugins/addons.xml.md5</checksum>
-		<datadir zip="true">http://repo.cazwall.com/repolist/Plugins/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Simply Caz YouTube</summary>
-		<description>
-
-		 CazWall.com | Kodi, Tech and More! This Repo is not an Official Repo for any of the add-ons in it. It's simply an easy spot for my followers. "Peace in Caribbean, Peace in the Middle East, to God be the Glory!"
-
-		</description>
-
 		<platform>all</platform>
 	</extension>
 </addon>
